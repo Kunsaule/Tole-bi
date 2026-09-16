@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="kk">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Төле би — «Ердің бақыты – әйел»</title>
+<style>
+:root{--ink:#10241f;--gold:#c99a32;--cream:#fbf7ed;--green:#315c4b;--card:#fff}
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.65}
+header{background:linear-gradient(120deg,#0f2724,#173f34);color:white;padding:30px 7% 22px;position:sticky;top:0;z-index:5;box-shadow:0 3px 18px #0003}
+h1{margin:0;color:#e6bd5e;font-family:Georgia,serif;font-size:clamp(25px,4vw,42px)} header p{margin:3px 0 15px;color:#dce8e2}
+nav{display:flex;gap:8px;flex-wrap:wrap}.tab{border:1px solid #ffffff25;background:#ffffff10;color:white;border-radius:22px;padding:9px 14px;cursor:pointer}.tab.active{background:var(--gold);color:#14221d;font-weight:700}
+main{max-width:1050px;margin:28px auto;padding:0 18px}.page{display:none}.page.active{display:block}
+.hero,.box,.q,.flash{background:var(--card);border-radius:18px;padding:22px;margin:14px 0;box-shadow:0 8px 25px #253b2b12;border:1px solid #e9e0c9}
+.kicker{color:var(--green);font-weight:800;letter-spacing:.08em;text-transform:uppercase}.quote{border-left:5px solid var(--gold);padding:12px 18px;background:#fff8e5;border-radius:8px;font-family:Georgia,serif;font-size:1.08rem}
+h2{font-family:Georgia,serif;color:#244d3f} button.primary{background:var(--green);color:#fff;border:0;border-radius:12px;padding:12px 18px;font-weight:700;cursor:pointer}
+.option{display:block;padding:8px 10px;margin:5px 0;border-radius:9px}.option:hover{background:#f6f0df}
+textarea{width:100%;min-height:90px;border:1px solid #d9d0bd;border-radius:10px;padding:12px;font:inherit}
+.result{font-size:1.15rem;font-weight:800;margin-top:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.flash{min-height:145px;display:flex;align-items:center;justify-content:center;text-align:center;cursor:pointer;background:#153d34;color:#f5d47f;font-family:Georgia,serif;font-size:1.15rem}.flash.flipped{background:#fff;color:#183d33}
+.small{font-size:.92rem;color:#5d665f}.tag{display:inline-block;background:#e9f0eb;padding:4px 9px;border-radius:999px;margin:3px}
+footer{text-align:center;padding:30px;color:#68736c}
+</style></head>
+<body>
+<header><h1>ТӨЛЕ БИ ӘЛІБЕКҰЛЫ</h1><p>«Ердің бақыты – әйел» • 9-сынып • Қазақ әдебиеті • Интерактивті оқу құралы</p>
+<nav>
+<button class="tab active" data-p="home">🏠 Басты бет</button>
+<button class="tab" data-p="read">📖 Шығарманы оқу</button>
+<button class="tab" data-p="test">📝 Тест (10)</button>
+<button class="tab" data-p="open">✍️ Ашық сұрақтар (8)</button>
+<button class="tab" data-p="think">🧠 Сыни ойлау (7)</button>
+<button class="tab" data-p="flash">🃏 Флеш-карта (7)</button>
+</nav></header>
+<main>
+<section id="home" class="page active">
+<div class="hero"><div class="kicker">1663–1756 • би, шешен, қоғам қайраткері</div><h2>Төле би Әлібекұлы</h2>
+<p>Төле би — Тәуке хан тұсындағы «Билер кеңесінің» мүшесі, Ұлы жүздің төбе биі, «Жеті жарғы» заңдар жинағын құрастыруға қатысқан тарихи тұлғалардың бірі. Ел бірлігі, әділдік, ынтымақ туралы шешендік мұрасы халық жадында сақталған.</p>
+<div><span class="tag">Әділдік</span><span class="tag">Бірлік</span><span class="tag">Шешендік</span><span class="tag">Отбасы құндылығы</span></div>
+<p class="quote">«Асыл пышақ қап түбінде жатпайды» — шығармадағы Төле бидің адамды байлығына емес, ақыл-парасатына қарап бағалау ұстанымын танытатын түйін.</p>
+<button class="primary" onclick="go('read')">Шығарманы оқуға өту →</button></div>
+</section>
+
+<section id="read" class="page"><div class="box"><div class="kicker">Оқылым</div><h2>«Ердің бақыты – әйел»</h2>
+<p><b>Оқуға арналған мазмұндық нұсқа.</b> Төле би баласына жарды өзі таңдамақ болады. Ол байлық пен атаққа қызықпай, болашақ келіннің ақылына, тәрбиесіне, адамгершілігіне мән береді. Оның ойынша, ақылды әйел отбасының берекесін кіргізіп, ерінің ел алдындағы абыройына да ықпал етеді.</p>
+<p>Сапар үстінде Төле би бір топ қыз-келіншекке кездеседі. Солардың арасындағы Данагүлдің үлкенге құрметі, сөзге зеректігі мен тапқырлығы бидің назарын аударады. Данагүл — Алакөздің қызы. Төле би қыздың сыртқы сәніне немесе әкесінің дәулетіне емес, оның мінезі мен ақылына қарайды.</p>
+<p>Данагүлдің әр ісінен әдеп пен парасат байқалады. Төле би оның айтылған ойды ишарадан түсіне алатын зеректігін бағалайды. Осы қасиеттеріне риза болған би Данагүлді ұлына лайық жар деп таниды. Құдалық жолы жасалып, Данагүл Төле бидің әулетіне келін болып түседі.</p>
+<p>Келін болғаннан кейін де Данагүл ақылдылығы, қонақжайлығы және елмен тіл табыса білуі арқылы танылады. Төле бидің оған құлақ пен таңдай ұсынуы да астарлы өсиет ретінде беріледі: жақсы сөзді тыңдай біл, орынды сөзді халыққа жеткізе біл деген мағына аңғарылады.</p>
+<p>Шығарманың негізгі арқауы — жар таңдауда дүние-мүлікке емес, адамның ақылына, тәрбиесіне, парасатына мән беру. Сонымен бірге әңгіме отбасы берекесі бір адамның ғана емес, отбасы мүшелерінің өзара сыйластығы мен жауапкершілігіне байланысты екенін талқылауға мүмкіндік береді.</p>
+<p class="small">Ескерту: бұл бөлім ашық деректердегі «Данагүл / Ердің бақыты – әйел» сюжетін оқушыға ықшамдап мазмұндап береді; түпнұсқаның сөзбе-сөз көшірмесі емес.</p>
+<button class="primary" onclick="go('test')">✅ Оқып болдым → Тестке өту</button></div></section>
+
+<section id="test" class="page"><div class="box"><h2>Мәтінді түсіну тесті</h2><div id="quiz"></div><button class="primary" onclick="grade()">Жауаптарды тексеру</button><div id="score" class="result"></div></div></section>
+<section id="open" class="page"><div class="box"><h2>Ашық сұрақтар</h2><div id="openqs"></div></div></section>
+<section id="think" class="page"><div class="box"><h2>Сыни ойлау</h2><div id="thinkqs"></div></div></section>
+<section id="flash" class="page"><div class="box"><h2>Флеш-карталар</h2><p>Карточканы басыңыз — жауабы ашылады.</p><div id="cards" class="grid"></div><h2>Ой түйін</h2><textarea placeholder="Бүгінгі мәтіннен алған ең маңызды ойым..."></textarea></div></section>
+</main><footer>Оқу мақсаты: мәтін идеясын түсіну, кейіпкер бейнесін анықтау, ұлттық және жалпыадамзаттық құндылықтарды талдау.</footer>
+<script>
+const quiz=[
+["Төле би жар таңдауда нені басты өлшем етеді?",["Байлықты","Ақыл мен тәрбиені","Атақты","Сыртқы сәнді"],1],
+["Данагүл кімнің қызы?",["Алакөздің","Қазыбектің","Әйтекенің","Тәуке ханның"],0],
+["Төле бидің назарын Данагүлдің қай қасиеті аударады?",["Байлығы","Зеректігі мен әдептілігі","Жүйрік аты","Әншілігі"],1],
+["«Асыл пышақ қап түбінде жатпайды» ойы нені меңзейді?",["Асыл затты жасыру керек","Қабілет пен парасат түбі танылады","Байлық бәрінен жоғары","Үндемей жүру керек"],1],
+["Төле би Данагүлді кімге лайық жар деп таниды?",["Өзіне","Ұлына","Батырға","Ханға"],1],
+["Құлақ пен таңдай ұсынудың астарлы мәні қайсы?",["Тыңдай және орынды сөйлей білу","Ас әзірлеу","Сыйлық жинау","Үндемеу"],0],
+["Шығармадағы негізгі құндылықтардың бірі?",["Ысырап","Отбасы берекесі","Бәсеке","Мақтан"],1],
+["Төле би неге байлыққа қызықпайды?",["Мал ұстауды білмегендіктен","Адамның парасатын жоғары қойғандықтан","Сапарға шықпағандықтан","Байларды танымайтындықтан"],1],
+["Данагүл бейнесіне сәйкес сипат?",["Тәкаппар","Парасатты, зерек","Немқұрайлы","Өзімшіл"],1],
+["Шығарма идеясына жақын тұжырым?",["Отбасы тек дәулетпен құрылады","Адамды ақыл-парасаты мен тәрбиесіне қарап бағалау маңызды","Атақ бәрінен жоғары","Жар таңдауда тек үлкендер шешеді"],1]
+];
+document.getElementById('quiz').innerHTML=quiz.map((q,i)=>`<div class=q><b>${i+1}. ${q[0]}</b>${q[1].map((o,j)=>`<label class=option><input type=radio name=q${i} value=${j}> ${o}</label>`).join('')}</div>`).join('');
+function grade(){let s=0;quiz.forEach((q,i)=>{let x=document.querySelector(`input[name=q${i}]:checked`);if(x&&+x.value===q[2])s++});document.getElementById('score').textContent=`Нәтиже: ${s}/10 — ${s*10}%`}
+
+const openQ=[
+"Төле бидің келінді өзі таңдауға бекінуінің себебін түсіндір.",
+"Данагүлдің бойындағы үш қасиетті ата және мәтін мазмұнымен дәлелде.",
+"«Асыл пышақ қап түбінде жатпайды» мақалы оқиғаға қалай қатысты?",
+"Құлақ пен таңдайға байланысты өсиетті өз сөзіңмен түсіндір.",
+"Шығармада қандай отбасылық құндылықтар көрінеді?",
+"Төле бидің адамды бағалау өлшемін анықта.",
+"Данагүл бейнесіне 3–4 сөйлемдік мінездеме жаз.",
+"Шығарманың негізгі идеясын бір сөйлеммен тұжырымда."
+];
+const thinkQ=[
+"«Ердің бақыты – әйел» атауын бүгінгі көзқараспен қалай түсіндірер едің? Ойыңды дәлелде.",
+"Отбасы бақытына тек әйел жауапты деген пікірмен келісесің бе? Неліктен?",
+"Төле бидің жар таңдауда байлықтан гөрі ақылға мән беруін қазіргі өмірмен байланыстыр.",
+"Данагүлдің орнында болсаң, үлкендердің сынына қалай жауап берер едің?",
+"Шығармадағы ұлттық құндылық пен жалпыадамзаттық құндылықты ажыратып көрсет.",
+"Төле би мен Данагүлдің бір-бірін түсінуіне қандай қасиеттер көмектесті?",
+"Шығарманың идеясын XXI ғасырдағы отбасы ұғымымен байланыстырып, 4–5 сөйлем жаз."
+];
+function qs(arr,id){document.getElementById(id).innerHTML=arr.map((x,i)=>`<div class=q><b>${i+1}. ${x}</b><textarea placeholder="Жауабыңызды осында жазыңыз..."></textarea></div>`).join('')}
+qs(openQ,'openqs');qs(thinkQ,'thinkqs');
+
+const flash=[
+["Төле би кім?","Ұлы жүздің төбе биі, шешен, қоғам қайраткері."],
+["Данагүл кім?","Алакөздің қызы; шығармада ақылды, әдепті, зерек кейіпкер ретінде танылады."],
+["«Жеті жарғы» деген не?","Тәуке хан тұсында жүйеленген дәстүрлі заңдар жинағы."],
+["Шығарманың өзекті идеясы?","Адамды байлығына емес, ақыл-парасаты мен тәрбиесіне қарап бағалау."],
+["«Асыл пышақ қап түбінде жатпайды»?","Нағыз қабілет пен асыл қасиет түбінде танылады деген ой."],
+["Құлақ пен таңдай нені меңзейді?","Тыңдай білу мен орынды, пайдалы сөз айта білуді."],
+["Негізгі құндылықтар?","Ақыл, әдеп, сыйластық, жауапкершілік, отбасы берекесі."]
+];
+document.getElementById('cards').innerHTML=flash.map((x,i)=>`<div class=flash data-i=${i}>❓<br>${x[0]}</div>`).join('');
+document.querySelectorAll('.flash').forEach(c=>c.onclick=()=>{let i=+c.dataset.i;c.classList.toggle('flipped');c.innerHTML=c.classList.contains('flipped')?flash[i][1]:`❓<br>${flash[i][0]}`});
+function go(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.p===id));scrollTo(0,0)}
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>go(b.dataset.p));
+</script></body></html>
